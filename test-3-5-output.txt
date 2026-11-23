@@ -1,0 +1,227 @@
+
+> tinyg-shape-sorter@0.1.0 test
+> vitest run story-3-5
+
+
+ RUN  v5.1.1 C:/Users/clansangan-au/projects/TinyG
+
+stderr | src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > AC5: Taps during animation states (blocked appropriately) > should track animating shapes
+Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+
+stderr | src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > AC5: Taps during animation states (blocked appropriately) > should track shaking targets
+Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+
+stderr | src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > AC5: Taps during animation states (blocked appropriately) > should not allow selection while animating
+Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+
+stderr | src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > AC5: Taps during animation states (blocked appropriately) > should state transition through animation correctly
+Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+
+stderr | src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > AC6: Taps on matched/disabled shapes (no interaction) > should disable button interaction on matched shapes (via disabled prop)
+Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+
+stderr | src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > AC7: Race conditions with simultaneous shape/silhouette taps > should not corrupt store state with rapid Store updates
+Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+
+stderr | src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > Debouncing mechanism > should track last tap time for debouncing
+Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+
+stderr | src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > Debouncing mechanism > should not crash with 100 rapid store accesses
+Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+
+stderr | src/game/story-3-5-rapid-tap-handling.test.ts
+Could not randomize all game piece positions; using a safe layout.
+
+ ❯ src/game/story-3-5-rapid-tap-handling.test.ts (30 tests | 9 failed) 34ms
+   ❯ Story 3-5: Rapid Tap Handling & Accidental Tap Recovery (30)
+     ❯ AC3: Rapid taps on silhouettes (only last tap registers) (4)
+       × should allow tapping a silhouette when shape is selected 9ms
+     ❯ AC5: Taps during animation states (blocked appropriately) (4)
+       × should track animating shapes 2ms
+       × should track shaking targets 1ms
+       × should not allow selection while animating 1ms
+       × should state transition through animation correctly 1ms
+     ❯ AC6: Taps on matched/disabled shapes (no interaction) (3)
+       × should disable button interaction on matched shapes (via disabled prop) 1ms
+     ❯ AC7: Race conditions with simultaneous shape/silhouette taps (3)
+       × should not corrupt store state with rapid Store updates 1ms
+     ❯ Debouncing mechanism (2)
+       × should track last tap time for debouncing 1ms
+       × should not crash with 100 rapid store accesses 1ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 9 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > AC3: Rapid taps on silhouettes (only last tap registers) > should allow tapping a silhouette when shape is selected
+AssertionError: expected 'mismatch' to be 'matched' // Object.is equality
+
+Expected: "matched"
+Received: "mismatch"
+
+ ❯ src/game/story-3-5-rapid-tap-handling.test.ts:122:29
+    120|       const result = attemptMatch(round, target);
+    121|
+    122|       expect(result.result).toBe('matched');
+       |                             ^
+    123|       expect(result.round.matchedShapes).toContain(target);
+    124|     });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/9]⎯
+
+ FAIL  src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > AC5: Taps during animation states (blocked appropriately) > should track animating shapes
+TypeError: Cannot read properties of null (reading 'useCallback')
+ ❯ Object.process.env.NODE_ENV.exports.useCallback node_modules/react/cjs/react.development.js:1250:33
+ ❯ useStore node_modules/zustand/esm/react.mjs:8:11
+ ❯ useBoundStore node_modules/zustand/esm/react.mjs:16:39
+ ❯ src/game/story-3-5-rapid-tap-handling.test.ts:226:21
+    224|   describe('AC5: Taps during animation states (blocked appropriately)'…
+    225|     it('should track animating shapes', () => {
+    226|       const store = useGameStore();
+       |                     ^
+    227|       const shapeId = store.round.shapes[0];
+    228|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/9]⎯
+
+ FAIL  src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > AC5: Taps during animation states (blocked appropriately) > should track shaking targets
+TypeError: Cannot read properties of null (reading 'useCallback')
+ ❯ Object.process.env.NODE_ENV.exports.useCallback node_modules/react/cjs/react.development.js:1250:33
+ ❯ useStore node_modules/zustand/esm/react.mjs:8:11
+ ❯ useBoundStore node_modules/zustand/esm/react.mjs:16:39
+ ❯ src/game/story-3-5-rapid-tap-handling.test.ts:237:21
+    235|
+    236|     it('should track shaking targets', () => {
+    237|       const store = useGameStore();
+       |                     ^
+    238|       const shapeId = store.round.shapes[0];
+    239|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/9]⎯
+
+ FAIL  src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > AC5: Taps during animation states (blocked appropriately) > should not allow selection while animating
+TypeError: Cannot read properties of null (reading 'useCallback')
+ ❯ Object.process.env.NODE_ENV.exports.useCallback node_modules/react/cjs/react.development.js:1250:33
+ ❯ useStore node_modules/zustand/esm/react.mjs:8:11
+ ❯ useBoundStore node_modules/zustand/esm/react.mjs:16:39
+ ❯ src/game/story-3-5-rapid-tap-handling.test.ts:248:21
+    246|
+    247|     it('should not allow selection while animating', () => {
+    248|       const store = useGameStore();
+       |                     ^
+    249|       const shapeId = store.round.shapes[0];
+    250|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/9]⎯
+
+ FAIL  src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > AC5: Taps during animation states (blocked appropriately) > should state transition through animation correctly
+TypeError: Cannot read properties of null (reading 'useCallback')
+ ❯ Object.process.env.NODE_ENV.exports.useCallback node_modules/react/cjs/react.development.js:1250:33
+ ❯ useStore node_modules/zustand/esm/react.mjs:8:11
+ ❯ useBoundStore node_modules/zustand/esm/react.mjs:16:39
+ ❯ src/game/story-3-5-rapid-tap-handling.test.ts:260:21
+    258|
+    259|     it('should state transition through animation correctly', () => {
+    260|       const store = useGameStore();
+       |                     ^
+    261|       const shapeId = store.round.shapes[0];
+    262|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/9]⎯
+
+ FAIL  src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > AC6: Taps on matched/disabled shapes (no interaction) > should disable button interaction on matched shapes (via disabled prop)
+TypeError: Cannot read properties of null (reading 'useCallback')
+ ❯ Object.process.env.NODE_ENV.exports.useCallback node_modules/react/cjs/react.development.js:1250:33
+ ❯ useStore node_modules/zustand/esm/react.mjs:8:11
+ ❯ useBoundStore node_modules/zustand/esm/react.mjs:16:39
+ ❯ src/game/story-3-5-rapid-tap-handling.test.ts:311:21
+    309|
+    310|     it('should disable button interaction on matched shapes (via disab…
+    311|       const store = useGameStore();
+       |                     ^
+    312|       const shape = store.round.shapes[0];
+    313|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/9]⎯
+
+ FAIL  src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > AC7: Race conditions with simultaneous shape/silhouette taps > should not corrupt store state with rapid Store updates
+TypeError: Cannot read properties of null (reading 'useCallback')
+ ❯ Object.process.env.NODE_ENV.exports.useCallback node_modules/react/cjs/react.development.js:1250:33
+ ❯ useStore node_modules/zustand/esm/react.mjs:8:11
+ ❯ useBoundStore node_modules/zustand/esm/react.mjs:16:39
+ ❯ src/game/story-3-5-rapid-tap-handling.test.ts:370:21
+    368|
+    369|     it('should not corrupt store state with rapid Store updates', () =…
+    370|       const store = useGameStore();
+       |                     ^
+    371|       const shape = store.round.shapes[0];
+    372|       const target = store.round.targets[0];
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/9]⎯
+
+ FAIL  src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > Debouncing mechanism > should track last tap time for debouncing
+TypeError: Cannot read properties of null (reading 'useCallback')
+ ❯ Object.process.env.NODE_ENV.exports.useCallback node_modules/react/cjs/react.development.js:1250:33
+ ❯ useStore node_modules/zustand/esm/react.mjs:8:11
+ ❯ useBoundStore node_modules/zustand/esm/react.mjs:16:39
+ ❯ src/game/story-3-5-rapid-tap-handling.test.ts:453:21
+    451|   describe('Debouncing mechanism', () => {
+    452|     it('should track last tap time for debouncing', () => {
+    453|       const store = useGameStore();
+       |                     ^
+    454|       expect(store.round).toBeDefined();
+    455|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/9]⎯
+
+ FAIL  src/game/story-3-5-rapid-tap-handling.test.ts > Story 3-5: Rapid Tap Handling & Accidental Tap Recovery > Debouncing mechanism > should not crash with 100 rapid store accesses
+TypeError: Cannot read properties of null (reading 'useCallback')
+ ❯ Object.process.env.NODE_ENV.exports.useCallback node_modules/react/cjs/react.development.js:1250:33
+ ❯ useStore node_modules/zustand/esm/react.mjs:8:11
+ ❯ useBoundStore node_modules/zustand/esm/react.mjs:16:39
+ ❯ src/game/story-3-5-rapid-tap-handling.test.ts:466:21
+    464|
+    465|     it('should not crash with 100 rapid store accesses', () => {
+    466|       const store = useGameStore();
+       |                     ^
+    467|       const shape = store.round.shapes[0];
+    468|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/9]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  9 failed | 21 passed (30)
+   Start at  19:26:37
+   Duration  2.31s (environment 87%, transform 7%, import 4%, tests 2%, worker 1%)
+

@@ -1,0 +1,698 @@
+
+> tinyg-shape-sorter@0.1.0 test
+> vitest run
+
+
+ RUN  v5.1.1 C:/Users/clansangan-au/projects/TinyG
+
+stderr | src/App.test.tsx > Shape Sorter interactions > dispatches the correct feedback for matching and mismatching taps
+Cannot select shape in feedback state
+
+stderr | src/App.test.tsx > Shape Sorter interactions > triggers success vibration when shapes match
+Cannot select shape in feedback state
+
+stderr | src/App.test.tsx > Shape Sorter interactions > animates matched shape to silhouette position with is-matched class
+Cannot select shape in feedback state
+
+stderr | src/App.test.tsx > Shape Sorter interactions > prevents re-entry during matched shape animation
+Cannot select shape in feedback state
+
+stderr | src/App.test.tsx > Shape Sorter interactions > supports keyboard selection, completion, and replay
+Cannot select shape in feedback state
+
+stderr | src/App.test.tsx > Shape Sorter interactions > applies shake animation class to target silhouette on mismatch
+Cannot select shape in feedback state
+
+stderr | src/App.test.tsx > Shape Sorter interactions > removes shake animation class after animation duration
+Cannot select shape in feedback state
+
+stderr | src/App.test.tsx > Shape Sorter interactions > prevents repeated clicks during shake animation
+Cannot select shape in feedback state
+
+stderr | src/App.test.tsx > Shape Sorter interactions > allows retry with same selected shape after mismatch
+Cannot select shape in feedback state
+
+stderr | src/App.test.tsx > Shape Sorter interactions > handles rapid mismatch attempts without breaking state
+Cannot select shape in feedback state
+
+ ❯ src/App.test.tsx (10 tests | 10 failed) 672ms
+   ❯ Shape Sorter interactions (10)
+     × dispatches the correct feedback for matching and mismatching taps 208ms
+     × triggers success vibration when shapes match 35ms
+     × animates matched shape to silhouette position with is-matched class 36ms
+     × prevents re-entry during matched shape animation 87ms
+     × supports keyboard selection, completion, and replay 153ms
+     × applies shake animation class to target silhouette on mismatch 29ms
+     × removes shake animation class after animation duration 37ms
+     × prevents repeated clicks during shake animation 27ms
+     × allows retry with same selected shape after mismatch 28ms
+     × handles rapid mismatch attempts without breaking state 30ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 10 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > dispatches the correct feedback for matching and mismatching taps
+AssertionError: expected 2nd "vi.fn()" call to have been called with [ 'mismatch' ], but called only 1 times
+ ❯ src/App.test.tsx:56:26
+     54|     fireEvent.click(wrongTarget!);
+     55|
+     56|     expect(playFeedback).toHaveBeenNthCalledWith(2, "mismatch");
+       |                          ^
+     57|     expect(vibrateForMismatch).toHaveBeenCalledOnce();
+     58|     // After mismatch, shape should remain selected for immediate retry
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > triggers success vibration when shapes match
+AssertionError: expected "vi.fn()" to be called once, but got 0 times
+ ❯ src/App.test.tsx:79:31
+     77|     );
+     78|
+     79|     expect(vibrateForSuccess).toHaveBeenCalledOnce();
+       |                               ^
+     80|   });
+     81|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > animates matched shape to silhouette position with is-matched class
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ src/App.test.tsx:95:57
+     93|
+     94|     // After match, colored shape is removed from DOM, silhouette now …
+     95|     expect(silhouette.classList.contains("is-matched")).toBe(true);
+       |                                                         ^
+     96|     expect(silhouette.hasAttribute("disabled")).toBe(true);
+     97|     // Colored shape should no longer exist in DOM
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > prevents re-entry during matched shape animation
+TestingLibraryElementError: Unable to find an accessible element with the role "button" and name "Diamond silhouette matched"
+
+Here are the accessible roles:
+
+  main:
+
+  Name "":
+  <main
+    class="app-shell"
+  />
+
+  --------------------------------------------------
+  banner:
+
+  Name "":
+  <header
+    class="page-header"
+  />
+
+  --------------------------------------------------
+  heading:
+
+  Name "Shape Sorter":
+  <h1 />
+
+  --------------------------------------------------
+  progressbar:
+
+  Name "1 of 6 pairs matched":
+  <div
+    aria-label="1 of 6 pairs matched"
+    aria-valuemax="6"
+    aria-valuemin="0"
+    aria-valuenow="1"
+    class="progress-indicator"
+    role="progressbar"
+  />
+
+  --------------------------------------------------
+  region:
+
+  Name "Shape matching game":
+  <section
+    aria-label="Shape matching game"
+    class="playfield"
+  />
+
+  --------------------------------------------------
+  button:
+
+  Name "Diamond silhouette target":
+  <button
+    aria-label="Diamond silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 90.65282587654906%; top: 74.63662420989888%;"
+    type="button"
+  />
+
+  Name "Circle silhouette target":
+  <button
+    aria-label="Circle silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 25.200459342694444%; top: 9.815942038263547%;"
+    type="button"
+  />
+
+  Name "Hexagon silhouette matched":
+  <button
+    aria-label="Hexagon silhouette matched"
+    aria-pressed="true"
+    class="board-button target-button is-matched"
+    disabled=""
+    style="left: 29.54312940521894%; top: 63.661884485858465%; color: rgb(100, 120, 207);"
+    type="button"
+  />
+
+  Name "Select Diamond":
+  <button
+    aria-label="Select Diamond"
+    aria-pressed="false"
+    class="board-button shape-button"
+    style="left: 72.11259960426989%; top: 50.05267359233828%; color: rgb(34, 162, 163);"
+    type="button"
+  />
+
+  Name "Select Heart":
+  <button
+    aria-label="Select Heart"
+    aria-pressed="false"
+    class="board-button shape-button"
+    style="left: 17.07813077467672%; top: 36.006875426868255%; color: rgb(223, 95, 145);"
+    type="button"
+  />
+
+  Name "Square silhouette target":
+  <button
+    aria-label="Square silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 57.7949535259848%; top: 86.01919020844262%;"
+    type="button"
+  />
+
+  Name "Star silhouette target":
+  <button
+    aria-label="Star silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 40.34771844783792%; top: 31.82263645925382%;"
+    type="button"
+  />
+
+  Name "Select Star":
+  <button
+    aria-label="Select Star"
+    aria-pressed="false"
+    class="board-button shape-button"
+    style="left: 49.869035766421916%; top: 56.42439043027594%; color: rgb(242, 138, 46);"
+    type="button"
+  />
+
+  Name "Select Circle":
+  <button
+    aria-label="Select Circle"
+    aria-pressed="false"
+    class="board-button shape-button"
+    style="left: 86.17712731553186%; top: 15.623532484196033%; color: rgb(241, 107, 91);"
+    type="button"
+  />
+
+  Name "Select Square":
+  <button
+    aria-label="Select Square"
+    aria-pressed="false"
+    class="board-button shape-button"
+    style="left: 32.982814604273%; top: 89.27677536681892%; color: rgb(75, 143, 245);"
+    type="button"
+  />
+
+  Name "Heart silhouette target":
+  <button
+    aria-label="Heart silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 10.189417345742076%; top: 82.57395785460261%;"
+    type="button"
+  />
+
+  --------------------------------------------------
+  status:
+
+  Name "":
+  <p
+    aria-live="polite"
+    class="sr-only"
+    role="status"
+  />
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+<body>
+  <div>
+    <main
+      class="app-shell"
+    >
+      <header
+        class="page-header"
+      >
+        <h1>
+          Shape Sorter
+        </h1>
+        <div
+          aria-label="1 of 6 pairs matched"
+          aria-valuemax="6"
+          aria-valuemin="0"
+          aria-valuenow="1"
+          class="progress-indicator"
+          role="progressbar"
+        >
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+          <span
+            aria-hidden="true"
+            class="progress-dot is-filled"
+          />
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+        </div>
+      </header>
+      <section
+        aria-label="Shape matching game"
+        class="playfield"
+      >
+        <button
+          aria-label="Diamond silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 90.65282587654906%; top: 74.63662420989888%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <polygon
+                points="50,8 91,50 50,92 9,50"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Circle silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 25.200459342694444%; top: 9.815942038263547%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <circle
+                cx="50"
+                cy="50"
+                r="36"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Hexagon silhouette matched"
+          aria-pressed="true"
+          class="board-button target-button is-matched"
+          disabled=""
+          style="left: 29.54312940521894%; top: 63.661884485858465%; color: rgb(100, 120, 207);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art matched-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <polygon
+                points="27,12 73,12 94,50 73,88 27,88 6,50"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Diamond"
+          aria-pressed="false"
+          class="board-button shape-button"
+          style="left: 72.11259960426989%; top: 50.05267359233828%; color: rgb(34, 162, 163);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <polygon
+                points="50,8 91,50 50,92 9,50"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Heart"
+          aria-pressed="false"
+          class="board-button shape-button"
+          style="left: 17.07813077467672%; top: 36.006875426868255%; color: rgb(223, 95, 145);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <path
+                d="M50 86 14 51C-2 34 9 10 29 10c10 0 17 6 21 14 4-8 11-14 21-14 20 0 31 24 15 41Z"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Square silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 57.7949535259848%; top: 86.01919020844262%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <rect
+                height="68"
+                rx="8"
+                width="68"
+                x="16"
+                y="16"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Star silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 40.34771844783792%; top: 31.82263645925382%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <path
+                d="M50 8 61.5 36.5 92 38.5 68.5 58 76 88 50 72 24 88 31.5 58 8 38.5 38.5 36.5Z"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Star"
+          aria-pressed="false"
+          class="board-button shape-button"
+          style="left: 49.869035766421916%; top: 56.42439043027594%; color: rgb(242, 138, 46);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <path
+                d="M50 8 61.5 36.5 92 38.5 68.5 58 76 88 50 72 24 88 31.5 58 8 38.5 38.5 36.5Z"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Circle"
+          aria-pressed="false"
+          class="board-button shape-button"
+          style="left: 86.17712731553186%; top: 15.623532484196033%; color: rgb(241, 107, 91);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <circle
+                cx="50"
+                cy="50"
+                r="36"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Square"
+          aria-pressed="false"
+          class="board-button shape-button"
+          style="left: 32.982814604273%; top: 89.27677536681892%; color: rgb(75, 143, 245);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <rect
+                height="68"
+                rx="8"
+                width="68"
+                x="16"
+                y="16"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Heart silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 10.189417345742076%; top: 82.57395785460261%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <path
+                d="M50 86 14 51C-2 34 9 10 29 10c10 0 17 6 21 14 4-8 11-14 21-14 20 0 31 24 15 41Z"
+              />
+            </g>
+          </svg>
+        </button>
+      </section>
+      <p
+        aria-live="polite"
+        class="sr-only"
+        role="status"
+      >
+        1 of 6 pairs matched.
+      </p>
+    </main>
+  </div>
+</body>
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/App.test.tsx:113:38
+    111|
+    112|     // After match, colored shape is removed, silhouette is now disabl…
+    113|     const matchedSilhouette = screen.getByRole("button", {
+       |                                      ^
+    114|       name: `${firstShape} silhouette matched`,
+    115|     });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > supports keyboard selection, completion, and replay
+AssertionError: expected 'false' to be 'true' // Object.is equality
+
+Expected: "true"
+Received: "false"
+
+ ❯ src/App.test.tsx:137:54
+    135|
+    136|     await activateWithKeyboard(firstSource);
+    137|     expect(firstSource.getAttribute("aria-pressed")).toBe("true");
+       |                                                      ^
+    138|     expect(firstSource.classList.contains("is-selected")).toBe(true);
+    139|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > applies shake animation class to target silhouette on mismatch
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ src/App.test.tsx:181:59
+    179|
+    180|     // Verify the target has the shake animation class
+    181|     expect(wrongTarget?.classList.contains("is-shaking")).toBe(true);
+       |                                                           ^
+    182|   });
+    183|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > removes shake animation class after animation duration
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ src/App.test.tsx:202:59
+    200|
+    201|     // Animation class should be applied
+    202|     expect(wrongTarget?.classList.contains("is-shaking")).toBe(true);
+       |                                                           ^
+    203|
+    204|     // Fast-forward through the 400ms animation duration
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > prevents repeated clicks during shake animation
+AssertionError: expected "vi.fn()" to be called with arguments: [ 'mismatch' ]
+
+Number of calls: 0
+
+ ❯ src/App.test.tsx:231:26
+    229|     // Click once to trigger mismatch
+    230|     fireEvent.click(wrongTarget!);
+    231|     expect(playFeedback).toHaveBeenCalledWith("mismatch");
+       |                          ^
+    232|
+    233|     const callCountAfterFirst = vi.mocked(playFeedback).mock.calls.len…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > allows retry with same selected shape after mismatch
+AssertionError: expected 'false' to be 'true' // Object.is equality
+
+Expected: "true"
+Received: "false"
+
+ ❯ src/App.test.tsx:249:54
+    247|
+    248|     fireEvent.click(firstSource);
+    249|     expect(firstSource.getAttribute("aria-pressed")).toBe("true");
+       |                                                      ^
+    250|
+    251|     // Tap wrong target
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > handles rapid mismatch attempts without breaking state
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ src/App.test.tsx:287:59
+    285|     // First mismatch
+    286|     fireEvent.click(wrongTarget!);
+    287|     expect(wrongTarget?.classList.contains("is-shaking")).toBe(true);
+       |                                                           ^
+    288|
+    289|     // Try to click again immediately (should be ignored)
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/10]⎯
+
+
+ Test Files  1 failed | 6 passed (7)
+      Tests  10 failed | 104 passed (114)
+   Start at  15:44:24
+   Duration  3.04s (tests 44%, environment 36%, import 16%, worker 2%, transform 2%)
+

@@ -1,0 +1,100 @@
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created, ready for development
+#   - in-progress: Developer actively working on implementation
+#   - review: Implementation complete, ready for review
+#   - done: Story completed
+
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+
+# Action Item Status:
+#   - open: Committed during a retrospective, not yet addressed
+#   - in-progress: Actively being worked on
+#   - done: Completed
+
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when its first story starts (via build's sprint sync)
+# - Stories can be worked in parallel if team capacity allows
+# - Developer typically creates the next story after the previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+# - Retrospective appends its action items to action_items; the status view surfaces open ones
+generated: 11-20-2026 18:57
+last_updated: 11-20-2026 19:10
+project: TinyG
+project_key: NOKEY
+tracking_system: file-system
+story_location: .\_bmad-output\implementation-artifacts\stories
+development_status:
+  epic-1: in-progress
+  1-1-shape-selection-visual-cue: done
+  1-2-silhouette-tap-detection-success-feedback: backlog
+  1-3-mismatch-feedback-recovery: backlog
+  1-4-shape-deselection-multi-shape-selection: backlog
+  1-5-interaction-state-machine-implementation: backlog
+  epic-1-retrospective: optional
+
+  epic-2: backlog
+  2-1-round-initialization-random-shape-generation: backlog
+  2-2-difficulty-progression-round-based: backlog
+  2-3-round-completion-auto-reset: backlog
+  2-4-continuous-play-without-round-limits: backlog
+  2-5-shape-fading-on-match-visual-cause-and-effect: backlog
+  2-6-game-loop-state-persistence: backlog
+  epic-2-retrospective: optional
+
+  epic-3: backlog
+  3-1-touch-target-sizing-spacing-validation: backlog
+  3-2-responsive-breakpoints-phone-tablet-desktop: backlog
+  3-3-color-contrast-visual-clarity: backlog
+  3-4-error-recovery-without-penalty: backlog
+  3-5-rapid-tap-handling-accidental-tap-recovery: backlog
+  3-6-multi-modal-feedback-sound-vibration-visual: backlog
+  3-7-no-time-pressure-or-scoring: backlog
+  epic-3-retrospective: optional
+
+  epic-4: backlog
+  4-1-design-tokens-system-colors-typography-spacing: backlog
+  4-2-shape-components-with-visual-states: backlog
+  4-3-silhouette-components-highlight-on-match: backlog
+  4-4-match-animation-smooth-snap-into-silhouette: backlog
+  4-5-mismatch-feedback-animation-shake-pulse: backlog
+  4-6-round-end-celebration-message: backlog
+  4-7-mute-toggle-settings-panel: backlog
+  epic-4-retrospective: optional
+
+  epic-5: backlog
+  5-1-success-sound-implementation: backlog
+  5-2-mismatch-sound-implementation: backlog
+  5-3-vibration-on-success: backlog
+  5-4-vibration-on-mismatch-distinct-pattern: backlog
+  5-5-mute-toggle-state-management: backlog
+  5-6-audio-asset-management: backlog
+  epic-5-retrospective: optional
+
+  epic-6: backlog
+  6-1-vite-build-configuration-development-setup: backlog
+  6-2-code-splitting-bundle-optimization: backlog
+  6-3-performance-optimization-60-fps-animations: backlog
+  6-4-service-worker-for-offline-play: backlog
+  6-5-asset-optimization-images-sounds: backlog
+  6-6-deployment-environment-setup: backlog
+  epic-6-retrospective: optional
+
+  epic-7: backlog
+  7-1-vitest-unit-test-setup-game-logic-tests: backlog
+  7-2-integration-tests-state-components: backlog
+  7-3-playwright-e2e-tests-full-gameplay: backlog
+  7-4-accessibility-performance-testing: backlog
+  7-5-cross-device-testing-matrix: backlog
+  7-6-quality-gate-traceability-matrix: backlog
+  epic-7-retrospective: optional

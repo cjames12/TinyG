@@ -1,0 +1,38 @@
+/* Story 4-3: Silhouette Components & Highlight on Match */
+/* Design tokens for silhouette styling and animations */
+
+:root {
+  /* Silhouette outline color (high contrast, WCAG 3:1) */
+  --silhouette-outline: #2d2d2d;
+  
+  /* Silhouette background color (light, clean) */
+  --silhouette-background: #FAFAFA;
+  
+  /* Silhouette border radius (matches shape component roundness) */
+  --silhouette-radius: 24px;
+  
+  /* Mismatch shake animation duration (300–500ms) */
+  --shake-duration: 400ms;
+  
+  /* Mismatch shake amplitude (5–10px offset) */
+  --shake-amplitude: 8px;
+}
+
+/* Mismatch shake animation: horizontal shake 5–10px over 300–500ms */
+@keyframes silhouette-shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(calc(-1 * var(--shake-amplitude)));
+  }
+  50% {
+    transform: translateX(var(--shake-amplitude));
+  }
+  75% {
+    transform: translateX(calc(-0.75 * var(--shake-amplitude)));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

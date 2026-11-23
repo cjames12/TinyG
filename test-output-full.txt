@@ -1,0 +1,2221 @@
+
+> tinyg-shape-sorter@0.1.0 test
+> vitest run
+
+
+ RUN  v5.1.1 C:/Users/clansangan-au/projects/TinyG
+
+ ❯ src/App.test.tsx (10 tests | 9 failed) 1645ms
+   ❯ Shape Sorter interactions (10)
+     × dispatches the correct feedback for matching and mismatching taps 621ms
+     × triggers success vibration when shapes match 82ms
+     × animates matched shape to silhouette position with is-matched class 102ms
+     × prevents re-entry during matched shape animation 219ms
+     × supports keyboard selection, completion, and replay 203ms
+     × removes shake animation class after animation duration 97ms
+     × prevents repeated clicks during shake animation 83ms
+     × allows retry with same selected shape after mismatch 79ms
+     × handles rapid mismatch attempts without breaking state 76ms
+stderr | src/game/story-2-3-round-completion.test.ts > Story 2-3: Round Completion & Auto-Reset > No round limits > should maintain valid game state at high round numbers
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+Could not randomize all game piece positions; using a safe layout.
+
+ ❯ src/game/story-2-3-round-completion.test.ts (15 tests | 1 failed) 8649ms
+   ❯ Story 2-3: Round Completion & Auto-Reset (15)
+     ❯ No round limits (2)
+       × should maintain valid game state at high round numbers 6523ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 10 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > dispatches the correct feedback for matching and mismatching taps
+TestingLibraryElementError: Unable to find an accessible element with the role "button" and name "Oval silhouette matched"
+
+Here are the accessible roles:
+
+  main:
+
+  Name "":
+  <main
+    class="app-shell"
+  />
+
+  --------------------------------------------------
+  banner:
+
+  Name "":
+  <header
+    class="page-header"
+  />
+
+  --------------------------------------------------
+  heading:
+
+  Name "Shape Sorter":
+  <h1 />
+
+  --------------------------------------------------
+  progressbar:
+
+  Name "0 of 6 pairs matched":
+  <div
+    aria-label="0 of 6 pairs matched"
+    aria-valuemax="6"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    class="progress-indicator"
+    role="progressbar"
+  />
+
+  --------------------------------------------------
+  region:
+
+  Name "Shape matching game":
+  <section
+    aria-label="Shape matching game"
+    class="playfield"
+  />
+
+  --------------------------------------------------
+  button:
+
+  Name "Square silhouette target":
+  <button
+    aria-label="Square silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 59.70949411567901%; top: 55.37504966479856%;"
+    type="button"
+  />
+
+  Name "Select Oval":
+  <button
+    aria-label="Select Oval"
+    aria-pressed="true"
+    class="board-button shape-button is-selected"
+    style="left: 90.88000658728296%; top: 73.48845286042547%; color: rgb(106, 47, 184);"
+    type="button"
+  />
+
+  Name "Select Diamond":
+  <button
+    aria-label="Select Diamond"
+    aria-pressed="false"
+    class="board-button shape-button"
+    style="left: 22.883745997120887%; top: 11.260863320482802%; color: rgb(10, 124, 126);"
+    type="button"
+  />
+
+  Name "Heart silhouette target":
+  <button
+    aria-label="Heart silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 35.8215459193863%; top: 61.66784489569876%;"
+    type="button"
+  />
+
+  Name "Star silhouette target":
+  <button
+    aria-label="Star silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 57.73281681928615%; top: 32.60147114582616%;"
+    type="button"
+  />
+
+  Name "Select Circle":
+  <button
+    aria-label="Select Circle"
+    aria-pressed="false"
+    class="board-button shape-button"
+    style="left: 82.466034771065%; top: 22.53736271450973%; color: rgb(199, 60, 39);"
+    type="button"
+  />
+
+  Name "Select Square":
+  <button
+    aria-label="Select Square"
+    aria-pressed="false"
+    class="board-button shape-button"
+    style="left: 63.695952246763454%; top: 82.76079735122991%; color: rgb(25, 88, 217);"
+    type="button"
+  />
+
+  Name "Select Star":
+  <button
+    aria-label="Select Star"
+    aria-pressed="false"
+    class="board-button shape-button"
+    style="left: 9.573799612821547%; top: 52.00368509014752%; color: rgb(216, 92, 0);"
+    type="button"
+  />
+
+  Name "Select Heart":
+  <button
+    aria-label="Select Heart"
+    aria-pressed="false"
+    class="board-button shape-button"
+    style="left: 39.73427595813202%; top: 87.84978064445774%; color: rgb(184, 19, 87);"
+    type="button"
+  />
+
+  Name "Diamond silhouette target":
+  <button
+    aria-label="Diamond silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 13.025331299232432%; top: 78.23613905783789%;"
+    type="button"
+  />
+
+  Name "Oval silhouette target":
+  <button
+    aria-label="Oval silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 85.21730535853202%; top: 49.358583897459404%;"
+    type="button"
+  />
+
+  Name "Circle silhouette target":
+  <button
+    aria-label="Circle silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 33.528921092669464%; top: 38.13165033302236%;"
+    type="button"
+  />
+
+  --------------------------------------------------
+  status:
+
+  Name "":
+  <p
+    aria-live="polite"
+    class="sr-only"
+    role="status"
+  />
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+<body>
+  <div>
+    <main
+      class="app-shell"
+    >
+      <header
+        class="page-header"
+      >
+        <h1>
+          Shape Sorter
+        </h1>
+        <div
+          aria-label="0 of 6 pairs matched"
+          aria-valuemax="6"
+          aria-valuemin="0"
+          aria-valuenow="0"
+          class="progress-indicator"
+          role="progressbar"
+        >
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+        </div>
+      </header>
+      <section
+        aria-label="Shape matching game"
+        class="playfield"
+      >
+        <button
+          aria-label="Square silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 59.70949411567901%; top: 55.37504966479856%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <rect
+                height="68"
+                rx="8"
+                width="68"
+                x="16"
+                y="16"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Oval"
+          aria-pressed="true"
+          class="board-button shape-button is-selected"
+          style="left: 90.88000658728296%; top: 73.48845286042547%; color: rgb(106, 47, 184);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <ellipse
+                cx="50"
+                cy="50"
+                rx="40"
+                ry="27"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Diamond"
+          aria-pressed="false"
+          class="board-button shape-button"
+          style="left: 22.883745997120887%; top: 11.260863320482802%; color: rgb(10, 124, 126);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <polygon
+                points="50,8 91,50 50,92 9,50"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Heart silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 35.8215459193863%; top: 61.66784489569876%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <path
+                d="M50 86 14 51C-2 34 9 10 29 10c10 0 17 6 21 14 4-8 11-14 21-14 20 0 31 24 15 41Z"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Star silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 57.73281681928615%; top: 32.60147114582616%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <path
+                d="M50 8 61.5 36.5 92 38.5 68.5 58 76 88 50 72 24 88 31.5 58 8 38.5 38.5 36.5Z"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Circle"
+          aria-pressed="false"
+          class="board-button shape-button"
+          style="left: 82.466034771065%; top: 22.53736271450973%; color: rgb(199, 60, 39);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <circle
+                cx="50"
+                cy="50"
+                r="36"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Square"
+          aria-pressed="false"
+          class="board-button shape-button"
+          style="left: 63.695952246763454%; top: 82.76079735122991%; color: rgb(25, 88, 217);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <rect
+                height="68"
+                rx="8"
+                width="68"
+                x="16"
+                y="16"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Star"
+          aria-pressed="false"
+          class="board-button shape-button"
+          style="left: 9.573799612821547%; top: 52.00368509014752%; color: rgb(216, 92, 0);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <path
+                d="M50 8 61.5 36.5 92 38.5 68.5 58 76 88 50 72 24 88 31.5 58 8 38.5 38.5 36.5Z"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Heart"
+          aria-pressed="false"
+          class="board-button shape-button"
+          style="left: 39.73427595813202%; top: 87.84978064445774%; color: rgb(184, 19, 87);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <path
+                d="M50 86 14 51C-2 34 9 10 29 10c10 0 17 6 21 14 4-8 11-14 21-14 20 0 31 24 15 41Z"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Diamond silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 13.025331299232432%; top: 78.23613905783789%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <polygon
+                points="50,8 91,50 50,92 9,50"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Oval silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 85.21730535853202%; top: 49.358583897459404%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <ellipse
+                cx="50"
+                cy="50"
+                rx="40"
+                ry="27"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Circle silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 33.528921092669464%; top: 38.13165033302236%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <circle
+                cx="50"
+                cy="50"
+                r="36"
+              />
+            </g>
+          </svg>
+        </button>
+      </section>
+      <p
+        aria-live="polite"
+        class="sr-only"
+        role="status"
+      >
+        Oval matched.
+      </p>
+    </main>
+  </div>
+</body>
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/App.test.tsx:43:14
+     41|     // After match, the colored shape is removed from DOM, so check fo…
+     42|     expect(
+     43|       screen.getByRole("button", { name: `${firstShape} silhouette mat…
+       |              ^
+     44|     ).toBeDefined();
+     45|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > triggers success vibration when shapes match
+AssertionError: expected "vi.fn()" to be called once, but got 0 times
+ ❯ src/App.test.tsx:79:31
+     77|     );
+     78|
+     79|     expect(vibrateForSuccess).toHaveBeenCalledOnce();
+       |                               ^
+     80|   });
+     81|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > animates matched shape to silhouette position with is-matched class
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ src/App.test.tsx:95:57
+     93|
+     94|     // After match, colored shape is removed from DOM, silhouette now …
+     95|     expect(silhouette.classList.contains("is-matched")).toBe(true);
+       |                                                         ^
+     96|     expect(silhouette.hasAttribute("disabled")).toBe(true);
+     97|     // Colored shape should no longer exist in DOM
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > prevents re-entry during matched shape animation
+TestingLibraryElementError: Unable to find an accessible element with the role "button" and name "Oval silhouette matched"
+
+Here are the accessible roles:
+
+  main:
+
+  Name "":
+  <main
+    class="app-shell"
+  />
+
+  --------------------------------------------------
+  banner:
+
+  Name "":
+  <header
+    class="page-header"
+  />
+
+  --------------------------------------------------
+  heading:
+
+  Name "Shape Sorter":
+  <h1 />
+
+  --------------------------------------------------
+  progressbar:
+
+  Name "0 of 6 pairs matched":
+  <div
+    aria-label="0 of 6 pairs matched"
+    aria-valuemax="6"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    class="progress-indicator"
+    role="progressbar"
+  />
+
+  --------------------------------------------------
+  region:
+
+  Name "Shape matching game":
+  <section
+    aria-label="Shape matching game"
+    class="playfield"
+  />
+
+  --------------------------------------------------
+  button:
+
+  Name "Square silhouette target":
+  <button
+    aria-label="Square silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 59.70949411567901%; top: 55.37504966479856%;"
+    type="button"
+  />
+
+  Name "Select Oval":
+  <button
+    aria-label="Select Oval"
+    aria-pressed="true"
+    class="board-button shape-button is-selected"
+    style="left: 90.88000658728296%; top: 73.48845286042547%; color: rgb(106, 47, 184);"
+    type="button"
+  />
+
+  Name "Select Diamond":
+  <button
+    aria-label="Select Diamond"
+    aria-pressed="false"
+    class="board-button shape-button"
+    style="left: 22.883745997120887%; top: 11.260863320482802%; color: rgb(10, 124, 126);"
+    type="button"
+  />
+
+  Name "Heart silhouette target":
+  <button
+    aria-label="Heart silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 35.8215459193863%; top: 61.66784489569876%;"
+    type="button"
+  />
+
+  Name "Star silhouette target":
+  <button
+    aria-label="Star silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 57.73281681928615%; top: 32.60147114582616%;"
+    type="button"
+  />
+
+  Name "Select Circle":
+  <button
+    aria-label="Select Circle"
+    aria-pressed="false"
+    class="board-button shape-button"
+    style="left: 82.466034771065%; top: 22.53736271450973%; color: rgb(199, 60, 39);"
+    type="button"
+  />
+
+  Name "Select Square":
+  <button
+    aria-label="Select Square"
+    aria-pressed="false"
+    class="board-button shape-button"
+    style="left: 63.695952246763454%; top: 82.76079735122991%; color: rgb(25, 88, 217);"
+    type="button"
+  />
+
+  Name "Select Star":
+  <button
+    aria-label="Select Star"
+    aria-pressed="false"
+    class="board-button shape-button"
+    style="left: 9.573799612821547%; top: 52.00368509014752%; color: rgb(216, 92, 0);"
+    type="button"
+  />
+
+  Name "Select Heart":
+  <button
+    aria-label="Select Heart"
+    aria-pressed="false"
+    class="board-button shape-button"
+    style="left: 39.73427595813202%; top: 87.84978064445774%; color: rgb(184, 19, 87);"
+    type="button"
+  />
+
+  Name "Diamond silhouette target":
+  <button
+    aria-label="Diamond silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 13.025331299232432%; top: 78.23613905783789%;"
+    type="button"
+  />
+
+  Name "Oval silhouette target":
+  <button
+    aria-label="Oval silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 85.21730535853202%; top: 49.358583897459404%;"
+    type="button"
+  />
+
+  Name "Circle silhouette target":
+  <button
+    aria-label="Circle silhouette target"
+    aria-pressed="false"
+    class="board-button target-button"
+    style="left: 33.528921092669464%; top: 38.13165033302236%;"
+    type="button"
+  />
+
+  --------------------------------------------------
+  status:
+
+  Name "":
+  <p
+    aria-live="polite"
+    class="sr-only"
+    role="status"
+  />
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+<body>
+  <div>
+    <main
+      class="app-shell"
+    >
+      <header
+        class="page-header"
+      >
+        <h1>
+          Shape Sorter
+        </h1>
+        <div
+          aria-label="0 of 6 pairs matched"
+          aria-valuemax="6"
+          aria-valuemin="0"
+          aria-valuenow="0"
+          class="progress-indicator"
+          role="progressbar"
+        >
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+          <span
+            aria-hidden="true"
+            class="progress-dot"
+          />
+        </div>
+      </header>
+      <section
+        aria-label="Shape matching game"
+        class="playfield"
+      >
+        <button
+          aria-label="Square silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 59.70949411567901%; top: 55.37504966479856%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <rect
+                height="68"
+                rx="8"
+                width="68"
+                x="16"
+                y="16"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Oval"
+          aria-pressed="true"
+          class="board-button shape-button is-selected"
+          style="left: 90.88000658728296%; top: 73.48845286042547%; color: rgb(106, 47, 184);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <ellipse
+                cx="50"
+                cy="50"
+                rx="40"
+                ry="27"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Diamond"
+          aria-pressed="false"
+          class="board-button shape-button"
+          style="left: 22.883745997120887%; top: 11.260863320482802%; color: rgb(10, 124, 126);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <polygon
+                points="50,8 91,50 50,92 9,50"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Heart silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 35.8215459193863%; top: 61.66784489569876%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <path
+                d="M50 86 14 51C-2 34 9 10 29 10c10 0 17 6 21 14 4-8 11-14 21-14 20 0 31 24 15 41Z"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Star silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 57.73281681928615%; top: 32.60147114582616%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <path
+                d="M50 8 61.5 36.5 92 38.5 68.5 58 76 88 50 72 24 88 31.5 58 8 38.5 38.5 36.5Z"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Circle"
+          aria-pressed="false"
+          class="board-button shape-button"
+          style="left: 82.466034771065%; top: 22.53736271450973%; color: rgb(199, 60, 39);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <circle
+                cx="50"
+                cy="50"
+                r="36"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Square"
+          aria-pressed="false"
+          class="board-button shape-button"
+          style="left: 63.695952246763454%; top: 82.76079735122991%; color: rgb(25, 88, 217);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <rect
+                height="68"
+                rx="8"
+                width="68"
+                x="16"
+                y="16"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Star"
+          aria-pressed="false"
+          class="board-button shape-button"
+          style="left: 9.573799612821547%; top: 52.00368509014752%; color: rgb(216, 92, 0);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <path
+                d="M50 8 61.5 36.5 92 38.5 68.5 58 76 88 50 72 24 88 31.5 58 8 38.5 38.5 36.5Z"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Select Heart"
+          aria-pressed="false"
+          class="board-button shape-button"
+          style="left: 39.73427595813202%; top: 87.84978064445774%; color: rgb(184, 19, 87);"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <path
+                d="M50 86 14 51C-2 34 9 10 29 10c10 0 17 6 21 14 4-8 11-14 21-14 20 0 31 24 15 41Z"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Diamond silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 13.025331299232432%; top: 78.23613905783789%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <polygon
+                points="50,8 91,50 50,92 9,50"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Oval silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 85.21730535853202%; top: 49.358583897459404%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <ellipse
+                cx="50"
+                cy="50"
+                rx="40"
+                ry="27"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          aria-label="Circle silhouette target"
+          aria-pressed="false"
+          class="board-button target-button"
+          style="left: 33.528921092669464%; top: 38.13165033302236%;"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="shape-art silhouette-art"
+            focusable="false"
+            viewBox="0 0 100 100"
+          >
+            <g
+              fill="currentColor"
+            >
+              <circle
+                cx="50"
+                cy="50"
+                r="36"
+              />
+            </g>
+          </svg>
+        </button>
+      </section>
+      <p
+        aria-live="polite"
+        class="sr-only"
+        role="status"
+      >
+        Oval matched.
+      </p>
+    </main>
+  </div>
+</body>
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/App.test.tsx:113:38
+    111|
+    112|     // After match, colored shape is removed, silhouette is now disabl…
+    113|     const matchedSilhouette = screen.getByRole("button", {
+       |                                      ^
+    114|       name: `${firstShape} silhouette matched`,
+    115|     });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > supports keyboard selection, completion, and replay
+AssertionError: expected 'false' to be 'true' // Object.is equality
+
+Expected: "true"
+Received: "false"
+
+ ❯ src/App.test.tsx:137:54
+    135|
+    136|     await activateWithKeyboard(firstSource);
+    137|     expect(firstSource.getAttribute("aria-pressed")).toBe("true");
+       |                                                      ^
+    138|     expect(firstSource.classList.contains("is-selected")).toBe(true);
+    139|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > removes shake animation class after animation duration
+AssertionError: expected true to be false // Object.is equality
+
+- Expected
++ Received
+
+- false
++ true
+
+ ❯ src/App.test.tsx:210:59
+    208|
+    209|     // Animation class should be removed
+    210|     expect(wrongTarget?.classList.contains("is-shaking")).toBe(false);
+       |                                                           ^
+    211|
+    212|     vi.useRealTimers();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > prevents repeated clicks during shake animation
+AssertionError: expected "vi.fn()" to be called with arguments: [ 'mismatch' ]
+
+Number of calls: 0
+
+ ❯ src/App.test.tsx:231:26
+    229|     // Click once to trigger mismatch
+    230|     fireEvent.click(wrongTarget!);
+    231|     expect(playFeedback).toHaveBeenCalledWith("mismatch");
+       |                          ^
+    232|
+    233|     const callCountAfterFirst = vi.mocked(playFeedback).mock.calls.len…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > allows retry with same selected shape after mismatch
+AssertionError: expected 'false' to be 'true' // Object.is equality
+
+Expected: "true"
+Received: "false"
+
+ ❯ src/App.test.tsx:249:54
+    247|
+    248|     fireEvent.click(firstSource);
+    249|     expect(firstSource.getAttribute("aria-pressed")).toBe("true");
+       |                                                      ^
+    250|
+    251|     // Tap wrong target
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/10]⎯
+
+ FAIL  src/App.test.tsx > Shape Sorter interactions > handles rapid mismatch attempts without breaking state
+AssertionError: expected true to be false // Object.is equality
+
+- Expected
++ Received
+
+- false
++ true
+
+ ❯ src/App.test.tsx:296:59
+    294|       vi.advanceTimersByTime(400);
+    295|     });
+    296|     expect(wrongTarget?.classList.contains("is-shaking")).toBe(false);
+       |                                                           ^
+    297|
+    298|     // Should be able to attempt another mismatch
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/10]⎯
+
+ FAIL  src/game/story-2-3-round-completion.test.ts > Story 2-3: Round Completion & Auto-Reset > No round limits > should maintain valid game state at high round numbers
+TestTimeoutError: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/game/story-2-3-round-completion.test.ts:200:5
+    198|     });
+    199|
+    200|     it("should maintain valid game state at high round numbers", () =>…
+       |     ^
+    201|       const store = useGameStore.getState();
+    202|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/10]⎯
+
+
+ Test Files  2 failed | 13 passed (15)
+      Tests  10 failed | 331 passed (341)
+   Start at  20:13:49
+   Duration  12.45s (environment 64%, tests 32%, import 3%, worker 1%)
+
+Environment  jsdom was created 15 times · 36.28s total, 64% of tracked time
+             create it once per worker with pool: 'vmThreads' (keeps per-file isolation) or isolate: false (shares it across files)
+             learn more: https://vitest.dev/guide/improving-performance#test-environments
+
