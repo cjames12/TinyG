@@ -138,7 +138,7 @@ export default function App() {
 
       setTimeout(() => {
         store.removeAnimatingShape(shapeId);
-      }, 500);
+      }, 400);
     } else if (attempt.result === "mismatch") {
       store.addShakingTarget(shapeId);
       store.attemptMatch(shapeId);
@@ -185,16 +185,28 @@ export default function App() {
             top: `${item.position.y}%`,
           };
           
+          let animationStyle: Record<string, string> = {};
+          
           if (item.kind === "shape" && matched) {
             // Find the target position for this shape
             const targetItem = store.round.boardItems.find(
               (bi) => bi.kind === "target" && bi.shapeId === item.shapeId
             );
             if (targetItem) {
+              // Calculate delta: (current position - target position) as percentage
+              const deltaX = item.position.x - targetItem.position.x;
+              const deltaY = item.position.y - targetItem.position.y;
+              
               position = {
                 left: `${targetItem.position.x}%`,
                 top: `${targetItem.position.y}%`,
               };
+              
+              // Apply delta as CSS custom properties for animation
+              animationStyle = {
+                '--delta-x': `${deltaX}%`,
+                '--delta-y': `${deltaY}%`,
+              } as Record<string, string>;
             }
           }
 
@@ -219,7 +231,7 @@ export default function App() {
                   }
                 }}
                 disabled={matched}
-                style={{ ...position, color: getShapeColor(item.shapeId) }}
+                style={{ ...position, color: getShapeColor(item.shapeId), ...animationStyle }}
                 type="button"
               >
                 <ShapeArtwork shapeId={item.shapeId} className="shape-art" />

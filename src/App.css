@@ -134,12 +134,12 @@ h1 {
 .shape-button.is-matched {
   pointer-events: none;
   cursor: default;
-  animation: snap-to-silhouette 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  animation: snap-to-silhouette 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
 @keyframes snap-to-silhouette {
   from {
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(calc(-50% + var(--delta-x, 0px)), calc(-50% + var(--delta-y, 0px))) scale(1);
   }
   to {
     transform: translate(-50%, -50%) scale(1);
@@ -222,7 +222,7 @@ h1 {
 .matched-art {
   color: currentColor;
   opacity: 1;
-  animation: pulse-match 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  animation: pulse-match 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
 @keyframes pulse-match {
